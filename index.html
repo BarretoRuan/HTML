@@ -7,6 +7,18 @@
   <meta name="description" content="Projeto Portfólio">
   <meta name="author" content="Ruan Barreto de Santana">
   <meta name="keywords" content="HTML, CSS, JavaScript">
+
+  <!-- Código copiado do Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="./assets/img/favicon.svg" />
+
+  <!-- Link para a Folha de Estilo da Página - CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
   <title>Meu Perfil</title>
 </head>
 
@@ -14,7 +26,7 @@
   <!-- Cabeçalho da Página (header) -->
   <header>
     <!-- Div Conteudo do Cabeçalho -->
-    <div id="header_content">
+    <div id="header_content" class="flex">
       <!-- Titulo do Cabeçalho -->
       <div id="titulo">
         <!-- Seu nome -->
@@ -43,16 +55,16 @@
   <main>
 
     <!-- Seção Sobre você -->
-    <section id="about">
+    <section id="about" class="flex_start">
 
       <!-- Título da Seção -->
       <h2>Sobre a Ruan Barreto de Santanal</h2>
 
       <!-- Conteúdo da Seção -->
-      <div id="conteudo">
+      <div id="conteudo" class="flex">
 
         <!-- Imagem do criador do conteúdo -->
-        <img src="./assets/img/ruan.png" alt="Foto do criador desse conteudo" width="350px" height="350px" />
+        <img src="./assets/img/ruan.png" alt="Foto do criador desse conteudo" class="img_profile" />
 
         <!-- Texto sobre o criador do conteúdo -->
         <article id="sobre_texto">
@@ -66,13 +78,13 @@
     </section>
 
     <!-- Seção contendo um vídeo de sua preferência -->
-    <section id="video">
+    <section id="video" class="flex_start">
 
       <!-- Título da Seção -->
       <h2>Meu vídeo favorito:</h2>
 
       <!-- Vídeo da Seção -->
-      <div class="youtube">
+      <div class="youtube" class="flex">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Z3_mtwMMuGI?si=F1QiiDYSfsPG3nF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
@@ -81,7 +93,7 @@
   </main>
 
   <!-- Rodapé da Página (footer) -->
-  <footer>
+  <footer class="flex">
 
     <!-- Seção de Contato - Redes Sociais-->
     <section id="redes_sociais">
